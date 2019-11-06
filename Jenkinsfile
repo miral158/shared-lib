@@ -1,13 +1,10 @@
-libraries {
-  lib('sharedlib')
+@Library('pipeline-library-demo')_
+node{
+stage('Demo') {
+
+  echo 'Hello World'
+
+  sayHello 'Miral'
+
 }
-pipeline {
-    agent any
-    stages {
-        stage('demo') {
-            steps {
-                demo.hello()
-            }
-        }
-    }
 }
