@@ -1,9 +1,9 @@
 
 pipeline {
     agent any
-libraries {
-  lib('sharedlib@master')
-}
+
+@Library('sharedlib')
+    
     stages {
         stage('demo') {
             steps {
