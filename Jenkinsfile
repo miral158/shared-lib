@@ -1,11 +1,11 @@
-@Library('pipeline-library-demo')_
-@Library('sharedlib')
+//@Library('pipeline-library-demo')_
+@Library('sharedlib')_
 node{
 stage('Demo') {
 
   echo 'Hello World'
 
-  sayHello 'Miral'
+  //sayHello 'Miral'
   hello 'miral'
 
 }
