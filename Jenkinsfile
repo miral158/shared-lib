@@ -1,5 +1,5 @@
 @Library('pipeline-library-demo')_
-@Library('sharedlib')_
+@Library('sharedlib')
 node{
 stage('Demo') {
 
