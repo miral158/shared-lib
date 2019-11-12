@@ -4,7 +4,7 @@ node{
 stage('Demo') {
 
  // hello 'miral'
-  sayHello 'Miral Donda
+  sayHello 'Miral Donda'
 
 }
 }
