@@ -1,8 +1,8 @@
-def hello(){
+def call(){
 println "hello world"
 }
 
-def myname(String name = 'human') {
+def call(String name = 'human') {
   
     echo "Hello, ${name}."
 }
