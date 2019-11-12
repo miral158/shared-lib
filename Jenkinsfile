@@ -7,8 +7,7 @@ stage('Demo') {
 
   hello 'miral'
   
-  demo.hello()
-  demo.myname 'Miral Donda'
+  demo 'Miral Donda'
 
 }
 }
